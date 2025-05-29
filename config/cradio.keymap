@@ -1,7 +1,7 @@
 // Copyright (c) 2022 The ZMK Contributors
 // SPDX-License-Identifier: MIT
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 800
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
 #define ZMK_POINT_DEFAULT_SCROLL_VAL 20
 
 #include <behaviors.dtsi>
@@ -63,7 +63,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &lt 3 BSPC  &lt 2 TAB     &mt RC(RS(RALT)) ENTER  &lt 1 SPACE
+                                            &lt 3 TAB  &lt 2 BSPC     &mt RC(RS(RALT)) ENTER  &lt 1 SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
