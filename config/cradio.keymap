@@ -88,14 +88,14 @@
         left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │          │
-            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &trans
+        //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  _       │  =       │  \       │
+            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp UNDER  &kp EQUAL   &kp BSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ [        │  ]       │  {       │  }       │  `       │   │  ^       │  |       │   :      │   ;      │   ~      │
-            HRML(LBKT,   RBKT,     LBRC,     RBRC)     &kp GRAVE      &kp CARET  HRMR(PIPE,    COLON,     SEMI,     TILDE2)
+        //│ [        │  ]       │  {       │  &       │  ^       │   │  [       │  (       │   {      │   :      │   ~      │
+            HRML(F13,   F14,     F15,     AMPS)     &kp CARET      &kp LBKT HRMR(LPAR,    LBRC,     COLON,     TILDE)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │  (       │  )       │  ~       │   │  &       │  _       │  +       │          │          │
-            &trans     &trans     &kp LPAR   &kp RPAR   &kp TILDE      &kp AMPS   &kp UNDER  &kp PLUS   &trans     &trans
+        //│          │          │          │  `       │  +       │   │  ]       │  )       │   }      │   ;      │   |      │
+            &trans     &trans     &trans   &kp GRAVE   &kp PLUS      &kp RBKT  &kp RPAR  &kp RBRC   &kp SEMI     &kp PIPE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
