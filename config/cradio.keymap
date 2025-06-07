@@ -1,8 +1,8 @@
 // Copyright (c) 2022 The ZMK Contributors
 // SPDX-License-Identifier: MIT
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
-#define ZMK_POINT_DEFAULT_SCROLL_VAL 120
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 3200
+#define ZMK_POINT_DEFAULT_SCROLL_VAL 180
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
