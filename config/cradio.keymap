@@ -131,7 +131,7 @@
             &kp LG(GRAVE) &kp LG(W)   &none   &kp LG(M) &kp C_BRI_UP   &kp C_VOL_UP &kp LC(UP) &kp LC(DOWN) &kp LG(LS(N3)) &kp LG(LS(N4))
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &none     &none     &none     &kp LC(LG(F)) &kp C_BRI_DOWN &kp C_VOL_DN &kp C_PREV &kp C_PP &kp C_NEXT &none
+            &none     &none     &none     &kp LC(LG(F)) &kp C_BRI_DN &kp C_VOL_DN &kp C_PREV &kp C_PP &kp C_NEXT &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &none     &none     &kp F5    &kp F11    &kp F12        &kp C_MUTE     &none    &none      &none     &none
@@ -149,7 +149,7 @@
             &kp LG(TAB) &kp LG(UP)   &LG(D)   &kp LG(LS(UP)) &kp C_BRI_UP   &kp C_VOL_UP &none &kp LA(PSCRN) &kp LG(LA(PSCRN)) &kp LG(LS(S))
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp LG(LEFT) &kp LG(DOWN) &kp LG(RIGHT) &kp LC(LS(DOWN)) &kp C_BRI_DOWN &kp C_VOL_DN &kp C_PREV &kp C_PP &kp C_NEXT &none
+            &kp LG(LEFT) &kp LG(DOWN) &kp LG(RIGHT) &kp LC(LS(DOWN)) &kp C_BRI_DN &kp C_VOL_DN &kp C_PREV &kp C_PP &kp C_NEXT &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &none     &none     &kp F5    &kp F11    &kp F12        &kp C_MUTE     &none    &none      &none     &none
