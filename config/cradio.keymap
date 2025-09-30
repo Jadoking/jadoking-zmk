@@ -146,7 +146,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp LG(TAB) &kp LG(UP)   &LG(D)   &kp LG(LS(UP)) &kp C_BRI_UP   &kp C_VOL_UP &none &kp LA(PSCRN) &kp LG(LA(PSCRN)) &kp LG(LS(S))
+            &kp LG(TAB) &kp LG(UP)   &kp LG(D)   &kp LG(LS(UP)) &kp C_BRI_UP   &kp C_VOL_UP &none &kp LA(PSCRN) &kp LG(LA(PSCRN)) &kp LG(LS(S))
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp LG(LEFT) &kp LG(DOWN) &kp LG(RIGHT) &kp LC(LS(DOWN)) &kp C_BRI_DN &kp C_VOL_DN &kp C_PREV &kp C_PP &kp C_NEXT &none
@@ -158,6 +158,7 @@
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
+
         bt_and_bl {
           bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
